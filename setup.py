@@ -25,6 +25,10 @@
 Set the aeneas package up.
 """
 
+import os, sys
+sys.path.insert(0, os.path.abspath(os.path.dirname(__file__)))
+
+
 from setuptools import Extension
 from setuptools import setup
 import io
